@@ -35,11 +35,11 @@ public class Name {
         // implementação fictícia
     }
 
-    public void createAccount() {
+    public void saveAccount() {
         // implementação fictícia
     }
 
-    public void generateContract() {
+    public void saveContract() {
         // implementação fictícia
     }
 
