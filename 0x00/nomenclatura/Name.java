@@ -14,7 +14,7 @@ public class Name {
     }
 
     // ✅ Declarações corretas — uso de List em vez de array (mais flexível)
-    public List<Account> accountList;
+    public List<Account> AccountList;
 
     // ✅ Parâmetros sem prefixos desnecessários
     public void deleteUser(Name.User user) {
