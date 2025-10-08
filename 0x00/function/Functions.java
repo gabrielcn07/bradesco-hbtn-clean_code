@@ -26,12 +26,11 @@ public class Functions {
     }
 
     // ✅ No side effects (método faz apenas uma coisa: salvar o usuário)
-    public User saveUserClean(User user) {
+    public User saveUser(User user) {
+        if (user.isAdmin) {
+            user.setRole(user);
+        }
         return userRepository.save(user);
-    }
-
-    public void setRole(User user) {
-        user.setRole(user);
     }
 
     // ✅ Evite duplicados, extraindo lógica repetida em um método auxiliar
