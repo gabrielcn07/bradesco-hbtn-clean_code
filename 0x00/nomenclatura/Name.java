@@ -25,7 +25,7 @@ public class Name {
     public URL url;
 
     // ✅ Classe com substantivo, método com verbo
-    public class TableRepresenter { }
+    public class TableRepresent { }
     public void saveCar() {
         // implementação fictícia
     }
